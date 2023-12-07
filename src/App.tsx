@@ -167,6 +167,12 @@ function hasEqualValues(values: Array<number>, targetNumDice: number): boolean {
     return false;
 }
 
+export const exportedForTesting = {
+    hasSubsetMatchingSum,
+    hasSequentialSubset,
+    hasEqualValues,
+};
+
 const defaultSpells: Array<Spell> = [
     {
         name: "Enchant",
